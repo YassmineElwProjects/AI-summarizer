@@ -5,7 +5,10 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full pt-3 mb-10">
-        <img src={logo} alt="sumz_logo" className="w-28 object-contain"></img>
+        <a href="">
+          <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
+        </a>
+
         <button
           className="black_btn"
           type="button"
